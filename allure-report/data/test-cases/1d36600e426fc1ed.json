@@ -1,11 +1,11 @@
 {
-  "uid" : "be2fe609b799f0ec",
+  "uid" : "1d36600e426fc1ed",
   "name" : "Successfull sign-up",
-  "historyId" : "a71654991b497ee532cf95f00521f2ae",
+  "historyId" : "42e5381a4b6e4248c85a18366af0ee03",
   "time" : {
-    "start" : 1538334575716,
-    "stop" : 1538334600128,
-    "duration" : 24412
+    "start" : 1538339255720,
+    "stop" : 1538339261956,
+    "duration" : 6236
   },
   "description" : "  This feature is about creating new acc in the system",
   "descriptionHtml" : "<p>This feature is about creating new acc in the system</p>\n",
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "before",
       "time" : {
-        "start" : 1538334575716,
-        "stop" : 1538334575717,
-        "duration" : 1
+        "start" : 1538339255720,
+        "stop" : 1538339255720,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,9 +33,9 @@
     }, {
       "name" : "before",
       "time" : {
-        "start" : 1538334575717,
-        "stop" : 1538334598500,
-        "duration" : 22783
+        "start" : 1538339255720,
+        "stop" : 1538339260346,
+        "duration" : 4626
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "Given  I have opened homepage",
       "time" : {
-        "start" : 1538334598500,
-        "stop" : 1538334598500,
-        "duration" : 0
+        "start" : 1538339260346,
+        "stop" : 1538339260347,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,9 +63,9 @@
     }, {
       "name" : "When  I select My Account button",
       "time" : {
-        "start" : 1538334598500,
-        "stop" : 1538334598611,
-        "duration" : 111
+        "start" : 1538339260347,
+        "stop" : 1538339260486,
+        "duration" : 139
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,9 +78,9 @@
     }, {
       "name" : "And  I select sign up button",
       "time" : {
-        "start" : 1538334598611,
-        "stop" : 1538334599341,
-        "duration" : 730
+        "start" : 1538339260486,
+        "stop" : 1538339261198,
+        "duration" : 712
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,9 +93,9 @@
     }, {
       "name" : "And  I enter First name",
       "time" : {
-        "start" : 1538334599341,
-        "stop" : 1538334599498,
-        "duration" : 157
+        "start" : 1538339261198,
+        "stop" : 1538339261320,
+        "duration" : 122
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,9 +108,9 @@
     }, {
       "name" : "And  I enter Last name",
       "time" : {
-        "start" : 1538334599498,
-        "stop" : 1538334599575,
-        "duration" : 77
+        "start" : 1538339261320,
+        "stop" : 1538339261403,
+        "duration" : 83
       },
       "status" : "passed",
       "steps" : [ ],
@@ -123,9 +123,9 @@
     }, {
       "name" : "And  I enter mobile phone number",
       "time" : {
-        "start" : 1538334599575,
-        "stop" : 1538334599656,
-        "duration" : 81
+        "start" : 1538339261403,
+        "stop" : 1538339261481,
+        "duration" : 78
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,9 +138,9 @@
     }, {
       "name" : "And  I enter email address",
       "time" : {
-        "start" : 1538334599656,
-        "stop" : 1538334599792,
-        "duration" : 136
+        "start" : 1538339261481,
+        "stop" : 1538339261624,
+        "duration" : 143
       },
       "status" : "passed",
       "steps" : [ ],
@@ -153,9 +153,9 @@
     }, {
       "name" : "And  I enter password",
       "time" : {
-        "start" : 1538334599792,
-        "stop" : 1538334599880,
-        "duration" : 88
+        "start" : 1538339261624,
+        "stop" : 1538339261707,
+        "duration" : 83
       },
       "status" : "passed",
       "steps" : [ ],
@@ -168,9 +168,9 @@
     }, {
       "name" : "And  I confirm password",
       "time" : {
-        "start" : 1538334599880,
-        "stop" : 1538334599960,
-        "duration" : 80
+        "start" : 1538339261708,
+        "stop" : 1538339261790,
+        "duration" : 82
       },
       "status" : "passed",
       "steps" : [ ],
@@ -183,9 +183,9 @@
     }, {
       "name" : "And  I select sign up button in SignUp page",
       "time" : {
-        "start" : 1538334599960,
-        "stop" : 1538334600036,
-        "duration" : 76
+        "start" : 1538339261790,
+        "stop" : 1538339261864,
+        "duration" : 74
       },
       "status" : "passed",
       "steps" : [ ],
@@ -198,9 +198,9 @@
     }, {
       "name" : "Then  I successfully sign up",
       "time" : {
-        "start" : 1538334600037,
-        "stop" : 1538334600037,
-        "duration" : 0
+        "start" : 1538339261864,
+        "stop" : 1538339261865,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -213,8 +213,8 @@
     }, {
       "name" : "after",
       "time" : {
-        "start" : 1538334600037,
-        "stop" : 1538334600128,
+        "start" : 1538339261865,
+        "stop" : 1538339261956,
         "duration" : 91
       },
       "status" : "passed",
@@ -254,7 +254,7 @@
     "value" : "Successfull sign-up"
   }, {
     "name" : "thread",
-    "value" : "26557@Madaras-MacBook-Pro.local.main(1)"
+    "value" : "29494@Madaras-MacBook-Pro.local.main(1)"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -269,6 +269,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "be2fe609b799f0ec.json",
+  "source" : "1d36600e426fc1ed.json",
   "parameterValues" : [ ]
 }

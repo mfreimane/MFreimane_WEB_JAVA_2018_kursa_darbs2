@@ -1,25 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found {#body-section > div > div > div.loadinvoice > div > div.col-md-8.offset-0.go-right > div:nth-child(2) > div.form-group > button}\nExpected: visible",
-      "children" : [ {
-        "name" : "Succesfull reservation for existing User",
-        "uid" : "7724936ea579ff29",
-        "parentUid" : "90da8a5ce0e55fb55f74f9267628e6aa",
-        "status" : "failed",
-        "time" : {
-          "start" : 1538334494527,
-          "stop" : 1538334548112,
-          "duration" : 53585
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "90da8a5ce0e55fb55f74f9267628e6aa"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }
