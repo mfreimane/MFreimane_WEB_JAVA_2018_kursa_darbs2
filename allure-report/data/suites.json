@@ -1,0 +1,53 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Login feature",
+    "children" : [ {
+      "name" : "Succesfull login",
+      "uid" : "3cd97b9e560b24d",
+      "parentUid" : "de25bb39a9ae7ab70c241a224d67ae33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538323517043,
+        "stop" : 1538323537277,
+        "duration" : 20234
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "de25bb39a9ae7ab70c241a224d67ae33"
+  }, {
+    "name" : "Reservation feature",
+    "children" : [ {
+      "name" : "Successful reservation for User without registration",
+      "uid" : "46e7f99047bc1c33",
+      "parentUid" : "39542f81ce7671e2e33893c7fab0418f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538323537450,
+        "stop" : 1538323620488,
+        "duration" : 83038
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "39542f81ce7671e2e33893c7fab0418f"
+  }, {
+    "name" : "Sign-up feature",
+    "children" : [ {
+      "name" : "Successfull sign-up",
+      "uid" : "21801c6ecbc573bd",
+      "parentUid" : "023c5f34c28534428ad13d5847515a02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538323620512,
+        "stop" : 1538323641785,
+        "duration" : 21273
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "023c5f34c28534428ad13d5847515a02"
+  } ]
+}

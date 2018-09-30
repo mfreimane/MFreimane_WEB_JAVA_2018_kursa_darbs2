@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Login feature",
+    "children" : [ {
+      "name" : "Succesfull login",
+      "children" : [ {
+        "name" : "Succesfull login",
+        "uid" : "3cd97b9e560b24d",
+        "parentUid" : "a51b6dcd4a0f1f380e6ba2f37b7e217d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1538323517043,
+          "stop" : 1538323537277,
+          "duration" : 20234
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a51b6dcd4a0f1f380e6ba2f37b7e217d"
+    } ],
+    "uid" : "536efed61418bae9d51494fa1df1c336"
+  }, {
+    "name" : "Reservation feature",
+    "children" : [ {
+      "name" : "Successful reservation for User without registration",
+      "children" : [ {
+        "name" : "Successful reservation for User without registration",
+        "uid" : "46e7f99047bc1c33",
+        "parentUid" : "30681b04fc0f33c63fc9eec79b5b2160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1538323537450,
+          "stop" : 1538323620488,
+          "duration" : 83038
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "30681b04fc0f33c63fc9eec79b5b2160"
+    } ],
+    "uid" : "d91f683b3a05d0858e63ef8597468428"
+  }, {
+    "name" : "Sign-up feature",
+    "children" : [ {
+      "name" : "Successfull sign-up",
+      "children" : [ {
+        "name" : "Successfull sign-up",
+        "uid" : "21801c6ecbc573bd",
+        "parentUid" : "b266895c431fbc9157ff1f9e077a81f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1538323620512,
+          "stop" : 1538323641785,
+          "duration" : 21273
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b266895c431fbc9157ff1f9e077a81f4"
+    } ],
+    "uid" : "76d8b57fccdfe536c03cb1ab547aef16"
+  } ]
+}

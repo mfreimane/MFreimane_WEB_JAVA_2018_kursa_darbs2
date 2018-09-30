@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Madaras-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "12604@Madaras-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Successfull sign-up",
+        "uid" : "21801c6ecbc573bd",
+        "parentUid" : "30368be28cbfb90b9458f913fc51f45e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1538323620512,
+          "stop" : 1538323641785,
+          "duration" : 21273
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Succesfull login",
+        "uid" : "3cd97b9e560b24d",
+        "parentUid" : "30368be28cbfb90b9458f913fc51f45e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1538323517043,
+          "stop" : 1538323537277,
+          "duration" : 20234
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Successful reservation for User without registration",
+        "uid" : "46e7f99047bc1c33",
+        "parentUid" : "30368be28cbfb90b9458f913fc51f45e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1538323537450,
+          "stop" : 1538323620488,
+          "duration" : 83038
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "30368be28cbfb90b9458f913fc51f45e"
+    } ],
+    "uid" : "8894bc3662a09bccfad0c6cf022f26fa"
+  } ]
+}
