@@ -1,13 +1,12 @@
-# Created by .ignore support plugin (hsz.mobi)
-# Created by .ignore support plugin (hsz.mobi)
-.idea/
-build/
-target/
+ Created by .ignore support plugin (hsz.mobi)
+ .idea/*
+build/*
+target/*
 *.iml
-allure-report/data/attachments/
-allure-report/plugins/junit/
-allure-report/plugins/trx/
-allure-report/plugins/xctest/
-allure-report/plugins/xunit-xml/
-allure-results/
-src/main/resources/
+allure-report/data/attachments/*
+allure-report/plugins/junit/*
+allure-report/plugins/trx/*
+allure-report/plugins/xctest/*
+allure-report/plugins/xunit-xml/*
+allure-results/*
+src/main/resources/*
