@@ -4,10 +4,10 @@
     "uid" : "39542f81ce7671e2e33893c7fab0418f",
     "name" : "Reservation feature",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 2
     }

@@ -4,57 +4,57 @@
   "children" : [ {
     "name" : "Madaras-MacBook-Pro.local",
     "children" : [ {
-      "name" : "26557@Madaras-MacBook-Pro.local.main(1)",
+      "name" : "29494@Madaras-MacBook-Pro.local.main(1)",
       "children" : [ {
-        "name" : "Succesfull reservation for existing User",
-        "uid" : "7724936ea579ff29",
-        "parentUid" : "12906debd8b75159b33d8918e01f856b",
-        "status" : "failed",
+        "name" : "Succesfull login",
+        "uid" : "424d22c285eff3af",
+        "parentUid" : "92e23f6b4c831d7406f4a9dcc5da2a76",
+        "status" : "passed",
         "time" : {
-          "start" : 1538334494527,
-          "stop" : 1538334548112,
-          "duration" : 53585
+          "start" : 1538339114866,
+          "stop" : 1538339144542,
+          "duration" : 29676
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Successfull sign-up",
-        "uid" : "be2fe609b799f0ec",
-        "parentUid" : "12906debd8b75159b33d8918e01f856b",
+        "uid" : "1d36600e426fc1ed",
+        "parentUid" : "92e23f6b4c831d7406f4a9dcc5da2a76",
         "status" : "passed",
         "time" : {
-          "start" : 1538334575716,
-          "stop" : 1538334600128,
-          "duration" : 24412
+          "start" : 1538339255720,
+          "stop" : 1538339261956,
+          "duration" : 6236
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Succesfull reservation for existing User",
+        "uid" : "fe7d3255912a5f07",
+        "parentUid" : "92e23f6b4c831d7406f4a9dcc5da2a76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1538339144697,
+          "stop" : 1538339224908,
+          "duration" : 80211
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Successful reservation for User without registration",
-        "uid" : "21994a9acc072b8b",
-        "parentUid" : "12906debd8b75159b33d8918e01f856b",
+        "uid" : "cd6f4ca693158102",
+        "parentUid" : "92e23f6b4c831d7406f4a9dcc5da2a76",
         "status" : "passed",
         "time" : {
-          "start" : 1538334548140,
-          "stop" : 1538334575706,
-          "duration" : 27566
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Succesfull login",
-        "uid" : "92a84d63baa56cc9",
-        "parentUid" : "12906debd8b75159b33d8918e01f856b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1538334461599,
-          "stop" : 1538334494378,
-          "duration" : 32779
+          "start" : 1538339224917,
+          "stop" : 1538339255709,
+          "duration" : 30792
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "12906debd8b75159b33d8918e01f856b"
+      "uid" : "92e23f6b4c831d7406f4a9dcc5da2a76"
     } ],
     "uid" : "8894bc3662a09bccfad0c6cf022f26fa"
   } ]

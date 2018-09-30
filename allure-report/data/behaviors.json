@@ -7,13 +7,13 @@
       "name" : "Succesfull login",
       "children" : [ {
         "name" : "Succesfull login",
-        "uid" : "92a84d63baa56cc9",
+        "uid" : "424d22c285eff3af",
         "parentUid" : "a51b6dcd4a0f1f380e6ba2f37b7e217d",
         "status" : "passed",
         "time" : {
-          "start" : 1538334461599,
-          "stop" : 1538334494378,
-          "duration" : 32779
+          "start" : 1538339114866,
+          "stop" : 1538339144542,
+          "duration" : 29676
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -27,13 +27,13 @@
       "name" : "Succesfull reservation for existing User",
       "children" : [ {
         "name" : "Succesfull reservation for existing User",
-        "uid" : "7724936ea579ff29",
+        "uid" : "fe7d3255912a5f07",
         "parentUid" : "64d085b15190aaa9cf92aa22eddc2045",
-        "status" : "failed",
+        "status" : "passed",
         "time" : {
-          "start" : 1538334494527,
-          "stop" : 1538334548112,
-          "duration" : 53585
+          "start" : 1538339144697,
+          "stop" : 1538339224908,
+          "duration" : 80211
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -43,13 +43,13 @@
       "name" : "Successful reservation for User without registration",
       "children" : [ {
         "name" : "Successful reservation for User without registration",
-        "uid" : "21994a9acc072b8b",
+        "uid" : "cd6f4ca693158102",
         "parentUid" : "30681b04fc0f33c63fc9eec79b5b2160",
         "status" : "passed",
         "time" : {
-          "start" : 1538334548140,
-          "stop" : 1538334575706,
-          "duration" : 27566
+          "start" : 1538339224917,
+          "stop" : 1538339255709,
+          "duration" : 30792
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -63,13 +63,13 @@
       "name" : "Successfull sign-up",
       "children" : [ {
         "name" : "Successfull sign-up",
-        "uid" : "be2fe609b799f0ec",
+        "uid" : "1d36600e426fc1ed",
         "parentUid" : "b266895c431fbc9157ff1f9e077a81f4",
         "status" : "passed",
         "time" : {
-          "start" : 1538334575716,
-          "stop" : 1538334600128,
-          "duration" : 24412
+          "start" : 1538339255720,
+          "stop" : 1538339261956,
+          "duration" : 6236
         },
         "flaky" : false,
         "parameters" : [ ]

@@ -1,40 +1,40 @@
 [ {
-  "uid" : "7724936ea579ff29",
+  "uid" : "fe7d3255912a5f07",
   "name" : "Succesfull reservation for existing User",
   "time" : {
-    "start" : 1538334494527,
-    "stop" : 1538334548112,
-    "duration" : 53585
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "be2fe609b799f0ec",
-  "name" : "Successfull sign-up",
-  "time" : {
-    "start" : 1538334575716,
-    "stop" : 1538334600128,
-    "duration" : 24412
+    "start" : 1538339144697,
+    "stop" : 1538339224908,
+    "duration" : 80211
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "21994a9acc072b8b",
+  "uid" : "cd6f4ca693158102",
   "name" : "Successful reservation for User without registration",
   "time" : {
-    "start" : 1538334548140,
-    "stop" : 1538334575706,
-    "duration" : 27566
+    "start" : 1538339224917,
+    "stop" : 1538339255709,
+    "duration" : 30792
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "92a84d63baa56cc9",
+  "uid" : "424d22c285eff3af",
   "name" : "Succesfull login",
   "time" : {
-    "start" : 1538334461599,
-    "stop" : 1538334494378,
-    "duration" : 32779
+    "start" : 1538339114866,
+    "stop" : 1538339144542,
+    "duration" : 29676
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d36600e426fc1ed",
+  "name" : "Successfull sign-up",
+  "time" : {
+    "start" : 1538339255720,
+    "stop" : 1538339261956,
+    "duration" : 6236
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,5 +1,5 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
-"","Reservation feature","Succesfull reservation for existing User","1","0","0","0","0"
-"","Sign-up feature","Successfull sign-up","0","0","1","0","0"
-"","Reservation feature","Successful reservation for User without registration","0","0","1","0","0"
 "","Login feature","Succesfull login","0","0","1","0","0"
+"","Sign-up feature","Successfull sign-up","0","0","1","0","0"
+"","Reservation feature","Succesfull reservation for existing User","0","0","1","0","0"
+"","Reservation feature","Successful reservation for User without registration","0","0","1","0","0"

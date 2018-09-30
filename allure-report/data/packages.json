@@ -5,13 +5,13 @@
     "name" : "Login feature",
     "children" : [ {
       "name" : "Succesfull login",
-      "uid" : "92a84d63baa56cc9",
+      "uid" : "424d22c285eff3af",
       "parentUid" : "ef655446e231641d707dd853ef7e179f",
       "status" : "passed",
       "time" : {
-        "start" : 1538334461599,
-        "stop" : 1538334494378,
-        "duration" : 32779
+        "start" : 1538339114866,
+        "stop" : 1538339144542,
+        "duration" : 29676
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -21,25 +21,25 @@
     "name" : "Reservation feature",
     "children" : [ {
       "name" : "Succesfull reservation for existing User",
-      "uid" : "7724936ea579ff29",
+      "uid" : "fe7d3255912a5f07",
       "parentUid" : "a6991934145007bf22ba62325a9f6de8",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1538334494527,
-        "stop" : 1538334548112,
-        "duration" : 53585
+        "start" : 1538339144697,
+        "stop" : 1538339224908,
+        "duration" : 80211
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Successful reservation for User without registration",
-      "uid" : "21994a9acc072b8b",
+      "uid" : "cd6f4ca693158102",
       "parentUid" : "a6991934145007bf22ba62325a9f6de8",
       "status" : "passed",
       "time" : {
-        "start" : 1538334548140,
-        "stop" : 1538334575706,
-        "duration" : 27566
+        "start" : 1538339224917,
+        "stop" : 1538339255709,
+        "duration" : 30792
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -49,13 +49,13 @@
     "name" : "Sign-up feature",
     "children" : [ {
       "name" : "Successfull sign-up",
-      "uid" : "be2fe609b799f0ec",
+      "uid" : "1d36600e426fc1ed",
       "parentUid" : "fbbad474e454682f8518e6abe768ebd2",
       "status" : "passed",
       "time" : {
-        "start" : 1538334575716,
-        "stop" : 1538334600128,
-        "duration" : 24412
+        "start" : 1538339255720,
+        "stop" : 1538339261956,
+        "duration" : 6236
       },
       "flaky" : false,
       "parameters" : [ ]
