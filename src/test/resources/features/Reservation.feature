@@ -25,11 +25,11 @@ Feature: Reservation feature
     And I set "1" infant
     And I search for a flight
     And I book the first flight offer available
-    And I confirm the booking
-    And I navigate to Home page
-    And I navigate to Accounts page //Not finished
-    And I open invoice for the newest booking //Not finished
-    Then new booking contains correct flight details //Not finished
+#    And I confirm the booking
+#    And I navigate to Home page
+#    And I navigate to Accounts page //Not finished
+#    And I open invoice for the newest booking //Not finished
+#    Then new booking contains correct flight details //Not finished
 
 
 

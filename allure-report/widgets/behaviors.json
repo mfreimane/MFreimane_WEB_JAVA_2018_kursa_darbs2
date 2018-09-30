@@ -1,19 +1,19 @@
 {
   "total" : 3,
   "items" : [ {
-    "uid" : "536efed61418bae9d51494fa1df1c336",
-    "name" : "Login feature",
+    "uid" : "d91f683b3a05d0858e63ef8597468428",
+    "name" : "Reservation feature",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   }, {
-    "uid" : "d91f683b3a05d0858e63ef8597468428",
-    "name" : "Reservation feature",
+    "uid" : "536efed61418bae9d51494fa1df1c336",
+    "name" : "Login feature",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

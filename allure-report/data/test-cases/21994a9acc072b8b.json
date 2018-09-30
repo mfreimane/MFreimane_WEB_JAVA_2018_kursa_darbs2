@@ -1,11 +1,11 @@
 {
-  "uid" : "46e7f99047bc1c33",
+  "uid" : "21994a9acc072b8b",
   "name" : "Successful reservation for User without registration",
   "historyId" : "7c1f4ba9f63ae43634e8b7552c366471",
   "time" : {
-    "start" : 1538323537450,
-    "stop" : 1538323620488,
-    "duration" : 83038
+    "start" : 1538334548140,
+    "stop" : 1538334575706,
+    "duration" : 27566
   },
   "description" : "  Test the functionality of reservation",
   "descriptionHtml" : "<p>Test the functionality of reservation</p>\n",
@@ -18,8 +18,8 @@
     "steps" : [ {
       "name" : "before",
       "time" : {
-        "start" : 1538323537451,
-        "stop" : 1538323537451,
+        "start" : 1538334548140,
+        "stop" : 1538334548140,
         "duration" : 0
       },
       "status" : "passed",
@@ -33,9 +33,9 @@
     }, {
       "name" : "before",
       "time" : {
-        "start" : 1538323537451,
-        "stop" : 1538323550550,
-        "duration" : 13099
+        "start" : 1538334548140,
+        "stop" : 1538334555989,
+        "duration" : 7849
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,8 +48,8 @@
     }, {
       "name" : "Given  I have opened homepage",
       "time" : {
-        "start" : 1538323550550,
-        "stop" : 1538323550551,
+        "start" : 1538334555989,
+        "stop" : 1538334555990,
         "duration" : 1
       },
       "status" : "passed",
@@ -63,9 +63,9 @@
     }, {
       "name" : "And  I select FLIGHTS menu in booking section",
       "time" : {
-        "start" : 1538323550552,
-        "stop" : 1538323551662,
-        "duration" : 1110
+        "start" : 1538334555990,
+        "stop" : 1538334557101,
+        "duration" : 1111
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,9 +78,9 @@
     }, {
       "name" : "And  I select ROUND TRIP flight option",
       "time" : {
-        "start" : 1538323551662,
-        "stop" : 1538323551747,
-        "duration" : 85
+        "start" : 1538334557101,
+        "stop" : 1538334557179,
+        "duration" : 78
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,9 +93,9 @@
     }, {
       "name" : "And  I set BUSINESS class tickets",
       "time" : {
-        "start" : 1538323551748,
-        "stop" : 1538323551826,
-        "duration" : 78
+        "start" : 1538334557179,
+        "stop" : 1538334557247,
+        "duration" : 68
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,9 +108,9 @@
     }, {
       "name" : "And  I set \"RIX\" as departure airport",
       "time" : {
-        "start" : 1538323551827,
-        "stop" : 1538323553824,
-        "duration" : 1997
+        "start" : 1538334557247,
+        "stop" : 1538334559123,
+        "duration" : 1876
       },
       "status" : "passed",
       "steps" : [ ],
@@ -123,9 +123,9 @@
     }, {
       "name" : "And  I set \"AMS\" as arrival airport",
       "time" : {
-        "start" : 1538323553825,
-        "stop" : 1538323556097,
-        "duration" : 2272
+        "start" : 1538334559123,
+        "stop" : 1538334561056,
+        "duration" : 1933
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,9 +138,9 @@
     }, {
       "name" : "And  I set \"2018-11-09\" as departure date",
       "time" : {
-        "start" : 1538323556098,
-        "stop" : 1538323556366,
-        "duration" : 268
+        "start" : 1538334561057,
+        "stop" : 1538334561420,
+        "duration" : 363
       },
       "status" : "passed",
       "steps" : [ ],
@@ -153,9 +153,9 @@
     }, {
       "name" : "And  I set \"2018-11-23\" as the return date",
       "time" : {
-        "start" : 1538323556366,
-        "stop" : 1538323556609,
-        "duration" : 243
+        "start" : 1538334561420,
+        "stop" : 1538334561651,
+        "duration" : 231
       },
       "status" : "passed",
       "steps" : [ ],
@@ -168,9 +168,9 @@
     }, {
       "name" : "And  I set \"2\" adults",
       "time" : {
-        "start" : 1538323556609,
-        "stop" : 1538323557008,
-        "duration" : 399
+        "start" : 1538334561651,
+        "stop" : 1538334562007,
+        "duration" : 356
       },
       "status" : "passed",
       "steps" : [ ],
@@ -183,9 +183,9 @@
     }, {
       "name" : "And  I set \"2\" children",
       "time" : {
-        "start" : 1538323557008,
-        "stop" : 1538323557086,
-        "duration" : 78
+        "start" : 1538334562007,
+        "stop" : 1538334562081,
+        "duration" : 74
       },
       "status" : "passed",
       "steps" : [ ],
@@ -198,9 +198,9 @@
     }, {
       "name" : "And  I set \"1\" infant",
       "time" : {
-        "start" : 1538323557086,
-        "stop" : 1538323557273,
-        "duration" : 187
+        "start" : 1538334562081,
+        "stop" : 1538334562297,
+        "duration" : 216
       },
       "status" : "passed",
       "steps" : [ ],
@@ -213,9 +213,9 @@
     }, {
       "name" : "And  I search for a flight",
       "time" : {
-        "start" : 1538323557274,
-        "stop" : 1538323612718,
-        "duration" : 55444
+        "start" : 1538334562297,
+        "stop" : 1538334568886,
+        "duration" : 6589
       },
       "status" : "passed",
       "steps" : [ ],
@@ -228,9 +228,9 @@
     }, {
       "name" : "And  I book the first flight offer available",
       "time" : {
-        "start" : 1538323612718,
-        "stop" : 1538323615261,
-        "duration" : 2543
+        "start" : 1538334568886,
+        "stop" : 1538334570520,
+        "duration" : 1634
       },
       "status" : "passed",
       "steps" : [ ],
@@ -243,9 +243,9 @@
     }, {
       "name" : "And  I enter first name in personal details form",
       "time" : {
-        "start" : 1538323615261,
-        "stop" : 1538323615358,
-        "duration" : 97
+        "start" : 1538334570520,
+        "stop" : 1538334570615,
+        "duration" : 95
       },
       "status" : "passed",
       "steps" : [ ],
@@ -258,9 +258,9 @@
     }, {
       "name" : "And  I enter last name in personal details form",
       "time" : {
-        "start" : 1538323615358,
-        "stop" : 1538323615448,
-        "duration" : 90
+        "start" : 1538334570616,
+        "stop" : 1538334570709,
+        "duration" : 93
       },
       "status" : "passed",
       "steps" : [ ],
@@ -273,9 +273,9 @@
     }, {
       "name" : "And  I enter email address in personal details form",
       "time" : {
-        "start" : 1538323615448,
-        "stop" : 1538323615614,
-        "duration" : 166
+        "start" : 1538334570709,
+        "stop" : 1538334570878,
+        "duration" : 169
       },
       "status" : "passed",
       "steps" : [ ],
@@ -288,9 +288,9 @@
     }, {
       "name" : "And  I confirm email address in personal details form",
       "time" : {
-        "start" : 1538323615614,
-        "stop" : 1538323615775,
-        "duration" : 161
+        "start" : 1538334570878,
+        "stop" : 1538334571042,
+        "duration" : 164
       },
       "status" : "passed",
       "steps" : [ ],
@@ -303,9 +303,9 @@
     }, {
       "name" : "And  I enter mobile phone number in personal details form",
       "time" : {
-        "start" : 1538323615775,
-        "stop" : 1538323615866,
-        "duration" : 91
+        "start" : 1538334571042,
+        "stop" : 1538334571141,
+        "duration" : 99
       },
       "status" : "passed",
       "steps" : [ ],
@@ -318,9 +318,9 @@
     }, {
       "name" : "And  I enter home address in personal details form",
       "time" : {
-        "start" : 1538323615866,
-        "stop" : 1538323616048,
-        "duration" : 182
+        "start" : 1538334571141,
+        "stop" : 1538334571315,
+        "duration" : 174
       },
       "status" : "passed",
       "steps" : [ ],
@@ -333,9 +333,9 @@
     }, {
       "name" : "And  I set country to \"Latvia\" in personal details form",
       "time" : {
-        "start" : 1538323616048,
-        "stop" : 1538323619286,
-        "duration" : 3238
+        "start" : 1538334571315,
+        "stop" : 1538334574543,
+        "duration" : 3228
       },
       "status" : "passed",
       "steps" : [ ],
@@ -348,9 +348,9 @@
     }, {
       "name" : "And  I confirm the booking",
       "time" : {
-        "start" : 1538323619286,
-        "stop" : 1538323620381,
-        "duration" : 1095
+        "start" : 1538334574544,
+        "stop" : 1538334575614,
+        "duration" : 1070
       },
       "status" : "passed",
       "steps" : [ ],
@@ -363,9 +363,9 @@
     }, {
       "name" : "after",
       "time" : {
-        "start" : 1538323620382,
-        "stop" : 1538323620488,
-        "duration" : 106
+        "start" : 1538334575615,
+        "stop" : 1538334575706,
+        "duration" : 91
       },
       "status" : "passed",
       "steps" : [ ],
@@ -404,7 +404,7 @@
     "value" : "Successful reservation for User without registration"
   }, {
     "name" : "thread",
-    "value" : "12604@Madaras-MacBook-Pro.local.main(1)"
+    "value" : "26557@Madaras-MacBook-Pro.local.main(1)"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -419,6 +419,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "46e7f99047bc1c33.json",
+  "source" : "21994a9acc072b8b.json",
   "parameterValues" : [ ]
 }

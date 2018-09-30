@@ -7,13 +7,13 @@
       "name" : "Succesfull login",
       "children" : [ {
         "name" : "Succesfull login",
-        "uid" : "3cd97b9e560b24d",
+        "uid" : "92a84d63baa56cc9",
         "parentUid" : "a51b6dcd4a0f1f380e6ba2f37b7e217d",
         "status" : "passed",
         "time" : {
-          "start" : 1538323517043,
-          "stop" : 1538323537277,
-          "duration" : 20234
+          "start" : 1538334461599,
+          "stop" : 1538334494378,
+          "duration" : 32779
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -24,16 +24,32 @@
   }, {
     "name" : "Reservation feature",
     "children" : [ {
+      "name" : "Succesfull reservation for existing User",
+      "children" : [ {
+        "name" : "Succesfull reservation for existing User",
+        "uid" : "7724936ea579ff29",
+        "parentUid" : "64d085b15190aaa9cf92aa22eddc2045",
+        "status" : "failed",
+        "time" : {
+          "start" : 1538334494527,
+          "stop" : 1538334548112,
+          "duration" : 53585
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "64d085b15190aaa9cf92aa22eddc2045"
+    }, {
       "name" : "Successful reservation for User without registration",
       "children" : [ {
         "name" : "Successful reservation for User without registration",
-        "uid" : "46e7f99047bc1c33",
+        "uid" : "21994a9acc072b8b",
         "parentUid" : "30681b04fc0f33c63fc9eec79b5b2160",
         "status" : "passed",
         "time" : {
-          "start" : 1538323537450,
-          "stop" : 1538323620488,
-          "duration" : 83038
+          "start" : 1538334548140,
+          "stop" : 1538334575706,
+          "duration" : 27566
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -47,13 +63,13 @@
       "name" : "Successfull sign-up",
       "children" : [ {
         "name" : "Successfull sign-up",
-        "uid" : "21801c6ecbc573bd",
+        "uid" : "be2fe609b799f0ec",
         "parentUid" : "b266895c431fbc9157ff1f9e077a81f4",
         "status" : "passed",
         "time" : {
-          "start" : 1538323620512,
-          "stop" : 1538323641785,
-          "duration" : 21273
+          "start" : 1538334575716,
+          "stop" : 1538334600128,
+          "duration" : 24412
         },
         "flaky" : false,
         "parameters" : [ ]
