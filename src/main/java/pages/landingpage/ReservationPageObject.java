@@ -13,7 +13,7 @@ public class ReservationPageObject {
 
     private SelenideElement getFlightsMenuButton() { return $(By.xpath("//li/a/descendant::span[contains(text(), 'Flights')]"));}
 
-    private SelenideElement getRoundTripCheckbox() { return $(By.xpath("//div[@class='iradio_square-grey']"));}
+    private SelenideElement getRoundTripCheckbox() { return $("#flights > form > div.trip-check > div:nth-child(2) > div > label");}
 
     private SelenideElement getFirstClassTicketButton() { return $(By.xpath("//select[@name='cabinclass']/option[contains(., 'First')]"));}
 
