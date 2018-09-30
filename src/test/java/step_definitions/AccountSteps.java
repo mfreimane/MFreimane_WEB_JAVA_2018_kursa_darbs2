@@ -42,9 +42,10 @@ public class AccountSteps {
         test.getNavigationPage().selectLogoutButton();
     }
 
-    @Given("^I have an existing account$")
+    @And("^I have an existing account$")
     public void iHaveAnExistingAccount() throws Throwable {
         iSelectUserAccountButton();
+//        iSelectLoginButton();
         iSelectLogoutButtonInNavigationBar();
     }
 

@@ -18,4 +18,11 @@ public class RandomGenerator {
                 RandomStringUtils.random(7, true, false) + ".com";
     }
 
+    public static String generateRandomAddress() {
+        return RandomStringUtils.random(7, true, false) + " " + "street" + " " +
+                RandomStringUtils.random(3, false, true) + "-" +
+                RandomStringUtils.random(2, false, true) + "," + " " +
+                RandomStringUtils.random(8, true, false);
+    }
+
 }

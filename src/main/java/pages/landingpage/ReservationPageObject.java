@@ -4,6 +4,8 @@ import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 import pages.account.AccountPageObject;
 
+import java.nio.channels.SelectableChannel;
+
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.page;
 
@@ -34,6 +36,33 @@ public class ReservationPageObject {
 
     private SelenideElement getTwoAdultPersonField() { return $("#manual_flightTravelers > div > div > div.modal-body > section > div > div:nth-child(1) > div.col-sm-5.col-xs-5 > select > option:nth-child(2)");}
 
+    private SelenideElement getChildPersonField() { return $("#manual_flightTravelers > div > div > div.modal-body > section > div > div:nth-child(2) > div.col-sm-5.col-xs-5 > select");}
+
+    private SelenideElement gettwoChildPersonField() { return $("#manual_flightTravelers > div > div > div.modal-body > section > div > div:nth-child(2) > div.col-sm-5.col-xs-5 > select > option:nth-child(3)");}
+
+    private SelenideElement getInfantPersonField() { return $("#manual_flightTravelers > div > div > div.modal-body > section > div > div:nth-child(3) > div.col-sm-5.col-xs-5 > select");}
+
+    private SelenideElement getOneInfantPersonField() { return $("#manual_flightTravelers > div > div > div.modal-body > section > div > div:nth-child(3) > div.col-sm-5.col-xs-5 > select > option:nth-child(2)");}
+
+    private SelenideElement getCrossButtonFieldInGuestsPopup() { return $( "#manual_flightTravelers > div > div > div.modal-header > button");}
+
+    private SelenideElement getDoneButtonFieldInGuestsPopup() { return $( "#sumManualPassenger");}
+
+    private SelenideElement getSearchButton() { return $( "#flights > form > div.bgfade.col-md-1.col-xs-12.search-button > button");}
+
+    private SelenideElement getBusinessClassTicketButton() { return $(By.xpath("//select[@name='cabinclass']/option[contains(., 'Business')]"));}
+
+    private SelenideElement getBookNowButton() { return $("#bookbtn");}
+
+    private SelenideElement getNumberOfAdults(String numberOfAdults) { return $(By.xpath("//select[@name='madult']/option[contains(., '" + numberOfAdults + "')]"));}
+
+    private SelenideElement getNumberOfChildrens(String numberOfChildrens) { return $(By.xpath("//select[@name='mchildren']/option[contains(., '" + numberOfChildrens + "')]"));}
+
+    private SelenideElement getNumberOfInfants(String numberOfInfants) { return $(By.xpath("//select[@name='minfant']/option[contains(., '" + numberOfInfants + "')]"));}
+
+
+
+
 
     public void selectFlightsMenuInBookingSection() {
         getFlightsMenuButton().click();
@@ -43,8 +72,8 @@ public class ReservationPageObject {
         getRoundTripCheckbox().click();
     }
 
-    public void selectFirstClassTickets() {
-        getFirstClassTicketButton().click();
+    public void selectBusinessClassTickets() {
+        getBusinessClassTicketButton().click();
     }
 
     public void setDepartureAirport(String departure) {
@@ -75,6 +104,40 @@ public class ReservationPageObject {
         getTwoAdultPersonField().click();
     }
 
+    public void setChildPerson() {
+        getChildPersonField().click();
+        gettwoChildPersonField().click();
+
+    }
+
+    public void setInfantPerson() {
+        getInfantPersonField().click();
+        getOneInfantPersonField().click();
+        getDoneButtonFieldInGuestsPopup().click();
+    }
+
+    public void selectSearcheButton() {
+        getSearchButton().click();
+    }
+
+    public void selectBookNowButton() {
+        getBookNowButton().click();
+    }
+
+
+    public void setNumberOfAdults(String numberOfAdults) {
+        getPersonField().click();
+        getNumberOfAdults(numberOfAdults).click();
+    }
+
+    public void setNumberofChildrens(String getNumberOfChildrens) {
+        getNumberOfChildrens(getNumberOfChildrens).click();
+    }
+
+    public void setNumberofInfants(String getNumberOfInfants) {
+        getNumberOfInfants(getNumberOfInfants).click();
+        getDoneButtonFieldInGuestsPopup().click();
+    }
 }
 
 
@@ -82,3 +145,7 @@ public class ReservationPageObject {
 ////select[@name='cabinclass']/option[contains(., 'First')]
 ////div[@id='select2-drop']
 //setArrivalAirport
+//private SelenideElement getFlightsOptionRadioBox(String option) {
+//        return $(By.xpath("//div[@class='pure-checkbox'][./label[contains(text(), '" + option + "')]]/div[contains(@class, 'iradio_square-grey')]"));
+//    }
+//

@@ -22,7 +22,7 @@ public class LoginSteps {
     @And("^I enter a regular User password$")
     public void iEnterARegularUserPassword() throws InterruptedException {
 //        Thread.sleep(1000);
-        test.getLoginPage().enterRegularUserPassword(test.getRegularUser().getPassword());
+        test.getLoginPage().enterRegularUserPassword(test.getUser().getPassword());
     }
 
     @And("^I select login button in Login form$")
@@ -39,7 +39,7 @@ public class LoginSteps {
 
     @And("^I enter a User password$")
     public void iEnterAUserPassword() {
-        test.getLoginPage().enterUserPassword(test.getUser().getPassword());
+        test.getLoginPage().enterUserPassword(test.getRegularUser().getPassword());
     }
 
     @When("^I login this account$")

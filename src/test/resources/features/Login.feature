@@ -15,6 +15,10 @@ Feature: Login feature
    And I select login button in Login form
    Then I successfully logged in
 
+#  Scenario: Succesfull login2
+#    Given I have opened homepage
+#    And I select Login button
+
 
 #    When I select My Account button
 #    And I select Login button

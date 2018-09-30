@@ -2,9 +2,8 @@ package general;
 
 import lombok.Data;
 
-import static utils.RandomGenerator.generateRandomEmail;
-import static utils.RandomGenerator.generateRandomPhoneNumber;
-import static utils.RandomGenerator.generateRandomString;
+import static utils.RandomGenerator.*;
+
 @Data
 public class User {
 
@@ -13,6 +12,7 @@ public class User {
     private String mobileNumber;
     private String emailAddress;
     private String password;
+    private String homeAdress;
 
 
     public User() {
@@ -21,6 +21,7 @@ public class User {
         this.mobileNumber = generateRandomPhoneNumber();
         this.emailAddress = generateRandomEmail();
         this.password = generateRandomString();
+        this.homeAdress = generateRandomAddress();
 
     }
 

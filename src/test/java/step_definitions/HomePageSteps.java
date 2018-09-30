@@ -29,7 +29,7 @@ public class HomePageSteps {
         test.getNavigationPage().selectSignUpButton();
     }
 
-    @And("^I am in Signup form$")
+    @When("^I am in Signup form$")
     public void iAmInSignUpForm() throws Throwable {
 //        iHaveOpenedHomepage();
         iSelectMyAccountButton();
