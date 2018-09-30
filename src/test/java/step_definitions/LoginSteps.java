@@ -39,7 +39,7 @@ public class LoginSteps {
 
     @And("^I enter a User password$")
     public void iEnterAUserPassword() {
-        test.getLoginPage().enterUserPassword(test.getRegularUser().getPassword());
+        test.getLoginPage().enterUserPassword(test.getUser().getPassword());
     }
 
     @When("^I login this account$")
