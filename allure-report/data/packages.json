@@ -5,13 +5,13 @@
     "name" : "Login feature",
     "children" : [ {
       "name" : "Succesfull login",
-      "uid" : "3cd97b9e560b24d",
+      "uid" : "92a84d63baa56cc9",
       "parentUid" : "ef655446e231641d707dd853ef7e179f",
       "status" : "passed",
       "time" : {
-        "start" : 1538323517043,
-        "stop" : 1538323537277,
-        "duration" : 20234
+        "start" : 1538334461599,
+        "stop" : 1538334494378,
+        "duration" : 32779
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -20,14 +20,26 @@
   }, {
     "name" : "Reservation feature",
     "children" : [ {
+      "name" : "Succesfull reservation for existing User",
+      "uid" : "7724936ea579ff29",
+      "parentUid" : "a6991934145007bf22ba62325a9f6de8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1538334494527,
+        "stop" : 1538334548112,
+        "duration" : 53585
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
       "name" : "Successful reservation for User without registration",
-      "uid" : "46e7f99047bc1c33",
+      "uid" : "21994a9acc072b8b",
       "parentUid" : "a6991934145007bf22ba62325a9f6de8",
       "status" : "passed",
       "time" : {
-        "start" : 1538323537450,
-        "stop" : 1538323620488,
-        "duration" : 83038
+        "start" : 1538334548140,
+        "stop" : 1538334575706,
+        "duration" : 27566
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -37,13 +49,13 @@
     "name" : "Sign-up feature",
     "children" : [ {
       "name" : "Successfull sign-up",
-      "uid" : "21801c6ecbc573bd",
+      "uid" : "be2fe609b799f0ec",
       "parentUid" : "fbbad474e454682f8518e6abe768ebd2",
       "status" : "passed",
       "time" : {
-        "start" : 1538323620512,
-        "stop" : 1538323641785,
-        "duration" : 21273
+        "start" : 1538334575716,
+        "stop" : 1538334600128,
+        "duration" : 24412
       },
       "flaky" : false,
       "parameters" : [ ]
