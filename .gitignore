@@ -1,7 +1,13 @@
  Created by .ignore support plugin (hsz.mobi)
  .idea/*
 build/*
-target
+target/allure-results
+target/classes
+target/generated-sources
+target/generated-test-sources
+target/maven-status
+target/surefire-reports
+target/test-classes
 *.iml
 allure-report/data/attachments/*
 allure-report/plugins/junit/*
@@ -10,3 +16,4 @@ allure-report/plugins/xctest/*
 allure-report/plugins/xunit-xml/*
 allure-results/*
 src/main/resources/*
+php-travels-MFreimane-final.iml
