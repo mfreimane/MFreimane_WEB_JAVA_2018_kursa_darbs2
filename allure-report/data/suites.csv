@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","","21273","  This feature is about creating new acc in the system"
+"passed","","20234","  Test the functionality of login"
+"passed","","83038","  Test the functionality of reservation"

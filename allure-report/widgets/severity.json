@@ -1,0 +1,31 @@
+[ {
+  "uid" : "46e7f99047bc1c33",
+  "name" : "Successful reservation for User without registration",
+  "time" : {
+    "start" : 1538323537450,
+    "stop" : 1538323620488,
+    "duration" : 83038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cd97b9e560b24d",
+  "name" : "Succesfull login",
+  "time" : {
+    "start" : 1538323517043,
+    "stop" : 1538323537277,
+    "duration" : 20234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21801c6ecbc573bd",
+  "name" : "Successfull sign-up",
+  "time" : {
+    "start" : 1538323620512,
+    "stop" : 1538323641785,
+    "duration" : 21273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
